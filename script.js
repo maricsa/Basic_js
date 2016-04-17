@@ -35,8 +35,8 @@ console.log(difTypes);
 var food = [["chees", "bread", "yogurt"],["pickles", "kombucha", "bread"]]; //MULTI-DIMENSIONAL ARREYS
 console.log(food);
 //ARRAYCEPTION
-// access the first array inside 
-// then the second item inside that array
+/* access the first array inside 
+ then the second item inside that array */
 console.log(food[0],[1]);
 
 // CREATE AN OBJECT WITH STRINGS FOR KEYS 
@@ -86,30 +86,30 @@ cost(20)
 //----------------------------------------------------------------------------
 //PROBLEMS:
 
-// Declare a function that takes no arguments but prints something to the console. 
-//Try running it after it has been declared.
+/* 1.Declare a function that takes no arguments but prints something to the console. 
+ Try running it after it has been declared.*/
  var makeNoise = function(){
  	console.log("Ping!")
  }
   makeNoise();
 
-//Create a script with two variables assigned to two numbers.
-// Add them together and output the result to the console. 
+/* 2.Create a script with two variables assigned to two numbers.
+ Add them together and output the result to the console.*/
 var x = 28; var y = 36;
   console.log (x + y);
 // Now do the same with two strings.
  var string1 = "Hi "; var string2 = "Nastasia";
    console.log (string1 + string2);
-//Create a multidimensional array related to a subject that interests you. 
-//Output two of the items in sub-arrays to the console.
+/* 3.Create a multidimensional array related to a subject that interests you. 
+Output two of the items in sub-arrays to the console.*/
 var camera = [["Rostrum", "Reflex", "Still"],["Movie", "Multiplane", "Press"]]; //MULTI-DIMENSIONAL ARREYS
 console.log(camera);
 console.log(food[1],[3]);
 
-//Write a script that checks if a variable is less than 10. 
-//If it is, alert the user that their variable is less than 10. 
-//If it is not, using the console, 
-//let the user know that what the variable was and that it was greater than 10.
+/* 4.Write a script that checks if a variable is less than 10. 
+ If it is, alert the user that their variable is less than 10. 
+ If it is not, using the console, 
+ let the user know that what the variable was and that it was greater than 10.*/
 function checkTen (z){
 	if (z < 10){
 	console.log("Less than ten!"); 
@@ -125,8 +125,8 @@ checkTen(5);
 checkTen(39);
 checkTen("sun");
 
-//Try running the script and then changing the variable's value 
-//to see how this affects the program's output.
+/* 5.Try running the script and then changing the variable's value 
+to see how this affects the program's output.*/
 var number1 = 30
 function newNumb(){
 	var number1 = 50
@@ -135,8 +135,8 @@ function newNumb(){
  newNumb();
  console.log(number1);
 
-//Write a similar program to check if a string stored in a variable 
-//is the same as another string.
+/* 6.Write a similar program to check if a string stored in a variable 
+is the same as another string.*/
 function check(){
   var x = "textbox1"
   var y = "textbox2"
@@ -150,8 +150,9 @@ function check(){
 }
 check();
 
-//Declare a function that takes a name as an argument 
-//and tells the user what name they've entered. Try running it after it has been declared.
+/* 7.Declare a function that takes a name as an argument 
+ and tells the user what name they've entered. 
+ Try running it after it has been declared.*/
 function repeateName(ime){
 	console.log ("Your name is " + ime);
 }
